@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: #000000;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+header .main-title {
+    background-color: #000000;
+    height: 40vh;
+    padding: 10vh 0;
+}
+
+header .main-title h1 {
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+header .main-title h2 {
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Lista */
+
+nav section.list {
+    position: fixed;
+    background-color: #000000;
+    height: 5vh;
+    width: 100vw;
+    transition: all 1s ease;
+    transform: translateX(-100%);
+}
+
+nav section.list ul {
+    list-style: none;
+}
+
+nav section.list ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.lista {
+    display: grid;
+    gap: 1.5rem;
+}
+
+#close {
+    display: flex;
+    justify-content: end;
+    margin-right: 1rem;
+}
+
+/* Contenido  */
+
+.products-section {
+    padding: 2rem 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    height: 40vh;
+}
+
+.products-section article {
+    border: 2px solid black;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #2c083b;
+}
+.products-section article:hover {
+    background-color: #8f689f;
+    cursor: pointer;
+}
+
+.products-section article a {
+    text-decoration: none;
+    color:#ffffff
+}
+
+.products-section article .product-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.products-section article .product-description {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    height: 14vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+footer .derechos {
+    grid-column: 2 / 3;
+    text-align: center;
+}
+
+footer .redes {
+    display: flex;
+    gap: 0.5rem;
+    justify-content:center;
+    
+}
+
+footer ul {
+    list-style: none;
+}
+
+ /* Marketing */
+
+.marketing article {
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+}
+
+.marketing article img {
+    height: 40vh;
+    width: 50%;
+    border-radius: 1rem;
+}
+
+ /* Design */
+
+ .design article {
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+}
+
+.design article img {
+    height: 40vh;
+    width: 50%;
+    border-radius: 2rem;
+    padding: .5rem
+}
+
+ /* Community */
+
+ .community article {
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+}
+
+.community article img {
+    height: 40vh;
+    width: 50%;
+    margin: 0 1.5rem;
+    border-radius: 2rem;
+}
+
+ /* Contacto */
+
+.contacto article {
+    background-color: #000000;
+    display: flex;
+}
+
+.contacto article form {
+    height: 40vh;
+    width: 50%;
+    margin: 0 1.5rem;
+    color: #ffffff;
+}
+
+.contacto article form .boton{
+    font-weight: bold;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 0 2rem;
+}
+
+.contacto article img {
+    height: 40vh;
+    width: 50%;
+    margin: 0 1.5rem;
+    border-radius: 2rem;
+    display: flex;
+}
+ /* Nosotros */
+
+ .nosotros article {
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros article iframe {
+    height: 40vh;
+    width: 50%;
+    border-radius: 2rem;
+    padding: .5rem
+}
+
+.nosotros article img {
+    height: 40vh;
+    width: 50%;
+    border-radius: 2rem;
+    padding: .5rem
+}
+
+ /* Servicios */
+
+ .servicios article {
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+}
+
+.nosotros article iframe {
+    height: 40vh;
+    width: 50%;
+    border-radius: 2rem;
+}
+
+.servicios article img {
+    height: 40vh;
+    border-radius: 2rem;
+    width: 50%;
+}
+
+/* Media Queries */
+
+@media(max-width: 500px) {
+
+footer {
+    display: flex;
+    padding-right: 1rem;
+}
+}
