@@ -62,7 +62,7 @@ nav section.list ul li a {
 
 .lista {
     display: grid;
-    gap: 1.5rem;
+    gap: 1.25rem;
 }
 
 #close {
