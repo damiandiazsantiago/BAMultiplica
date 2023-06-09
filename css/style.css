@@ -241,13 +241,13 @@ footer ul {
     background-color: #000000;
     justify-content: center;
     align-items: center;
-    padding: .5rem;
 }
 
-.nosotros article iframe {
+.servicios article iframe {
     height: 40vh;
     width: 50%;
     border-radius: 2rem;
+    padding: .5rem;
 }
 
 .servicios article img {
